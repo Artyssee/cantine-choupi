@@ -53,5 +53,8 @@
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^24.9.0",
     "jsdoc": "^3.6.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>src/setupTests.js"]
   }
 }
