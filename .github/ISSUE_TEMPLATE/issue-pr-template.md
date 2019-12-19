@@ -1,6 +1,6 @@
 ---
 name: Issue PR template
-about: Describe this issue template's purpose here.
+about: Default PR template for issues
 title: CRS-(number) (issue name)
 labels: ''
 assignees: ''
