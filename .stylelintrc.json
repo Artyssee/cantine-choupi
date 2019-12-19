@@ -2,7 +2,7 @@
     "extends": "stylelint-config-standard",
     "rules": {
         "indentation": "tab",
-        "string-quotes": "double",
+        "string-quotes": "single",
         "no-duplicate-selectors": true,
         "color-hex-case": "lower",
         "color-hex-length": "short",
@@ -30,6 +30,8 @@
         "media-feature-parentheses-space-inside": "always",
         "media-feature-colon-space-before": "never",
         "media-feature-colon-space-after": "always",
-        "no-missing-end-of-source-newline": true
+        "no-missing-end-of-source-newline": true,
+        "max-nesting-depth": 2,
+        "at-rule-no-unknown": true
     }
 }
