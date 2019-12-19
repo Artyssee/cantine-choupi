@@ -1,28 +1,24 @@
 ---
 name: Default issue template
-about: Regular issue. Use this template if no other templates fit your needs.
-title: CRS-(NUMBER-HERE)-[FEATURE NAME]
+about: Template for setting up issues
+title: CRS-(number) (issue name)
 labels: ''
 assignees: ''
 
 ---
 
-1. Tests have been run and all passed
-2. Code has been built according to wiki conventions
-3. Code renders correctly in the browser. No console errors
-4. The design has been checked on all browsers listed below
+## Changes
 
-Add more here depending on your needs
+(describe what has been changed in this PR. [+] for each addition, [-] for removals and [*] for changes)
 
-## Desired effect
+## Testing steps
 
-What do you want to achieve in this issue?
+How to test:
 
-## Current behavior
-
-Describe the current state of this issue.
+(Numer by steps 1., 2., etc.)
 
 ## Tested on
+
 [ ] Chrome
 [ ] Safari
 [ ] Firefox
