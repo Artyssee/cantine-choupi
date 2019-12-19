@@ -1,33 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is the setup and explanation file for the cantine Choupi webshop
+
+## Installation
+
+Follow these instructions for the installation of the project
+
+1. Go to the repository for cantine-choupi. Clone the repository locally in your preferred direcory.
+2. Open your project in your code editor
+3. run `npm ci` to install the necessary modules
+4. (optional) go to insomnia or another API client and import the data from the executables/insomnia folder
+5. run `npm run dev` to start developing
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following scripts:
 
-### `yarn start`
+### `npm run stylelintc`
 
-Runs the app in the development mode.<br />
+Runs the .stylelintrc rules through all the styling of the project. You are required to fix the styling before you can run the project.
+
+### `npm run jsdoc`
+
+Generates JSDoc documentation for the developer. You are required to document your code with JSDoc so that future developers can always understand your code.
+
+### `npm run dev`
+
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.  
 You will also see any lint errors in the console.
 
-### `yarn test`
+If you have styling errors this script wil not run and you will be forced to fix the issues. JavaScript will always run regardless of the issues because this makes debugging easier. You are still required to fix them before you merge the branch into develop.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm run build`
 
-### `yarn build`
+Builds a production version of the app. See `npm start` to run the prodcution version
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm start`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Runs the app in the development mode.  
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The page will reload if you make edits.  
+You will also see any lint errors in the console.
 
-### `yarn eject`
+### `npm eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -45,24 +62,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This section has moved [here](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This section has moved [here](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This section has moved [here](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This section has moved [here](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This section has moved [here](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
