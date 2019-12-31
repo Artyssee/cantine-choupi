@@ -1,5 +1,0 @@
-{
-    "source": {
-        "exclude": ["src/serviceWorker.js", "src/setupTests.js", "src/.next", "src/assets"]
-    }
-}
