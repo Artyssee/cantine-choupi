@@ -34,7 +34,6 @@ const normalHeader = () => {
   )
 }
 
-
 ImageHeader.propTypes = {
   headerTitle: PropTypes.string,
   headerSubTitle: PropTypes.string,
