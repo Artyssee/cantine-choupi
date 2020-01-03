@@ -1,0 +1,37 @@
+@import '../../styles/mixins/breakpoints.scss';
+@import '../../styles/mixins/fonts.scss';
+@import '../../styles/variables/colors';
+
+.headerContainer {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.headerContentContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	padding-top: 60px;
+
+	&Title {
+		@include LatoFont(60px, $color-grey-white, normal);
+
+		margin-block-start: 0;
+		margin-block-end: 10px;
+		text-transform: uppercase;
+	}
+
+	&SubTitle {
+		@include RobotoSlabFont(30px, $color-grey-white, normal);
+
+		margin: 0;
+		text-transform: uppercase;
+	}
+}

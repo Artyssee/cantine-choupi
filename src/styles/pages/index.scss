@@ -1,0 +1,73 @@
+@import '../../styles/variables/colors';
+@import '../../styles/mixins/fonts.scss';
+@import '../../styles/mixins/breakpoints';
+
+.categoryDishContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 45px;
+	background-color: $color-dark-blue;
+
+	&Title {
+		@include LatoFont(30px, $color-grey-white, normal);
+
+		text-transform: uppercase;
+
+		@include for-medphones() {
+			@include LatoFont(40px, $color-grey-white, normal);
+		}
+	}
+
+	&Text {
+		@include RobotoSlabFont(16px, $color-grey-white, normal);
+
+		text-align: center;
+		line-height: 1.3;
+		width: 280px;
+		margin: 0;
+
+		@include for-medphones() {
+			@include LatoFont(16px, $color-grey-white, normal);
+
+			width: 400px;
+		}
+		
+		@include for-tablet() {
+			@include LatoFont(16px, $color-grey-white, normal);
+
+			width: 620px;
+		}
+
+		@include for-desktop() {
+			width: 800px;
+		}
+	}
+}
+
+.foodDrinksContainer {
+	width: 100%;
+	height: 300px;
+	margin-top: 45px;
+	background-color: $color-grey-white;
+
+	&Title {
+		@include LatoFont(30px, $color-dark-blue, normal);
+
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	@include for-tablet() {
+		width: 600px;
+	}
+
+	@include for-desktop() {
+		width: 800px;
+	}
+
+	@include for-desktop-large {
+		width: 1000px;
+	}
+}

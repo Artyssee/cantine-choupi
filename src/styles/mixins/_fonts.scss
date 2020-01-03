@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'); // Google fonts Roboto Slab
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); // Google fonts Lato
+
+@mixin RobotoSlabFont($font-size, $font-color, $font-weight) {
+    font-size: $font-size;
+    color: $font-color;
+    font-weight: $font-weight;
+    font-family: 'Roboto Slab', serif;
+}
+
+@mixin LatoFont($font-size, $font-color, $font-weight) {
+    font-size: $font-size;
+    color: $font-color;
+    font-weight: $font-weight;
+    font-family: 'Lato', serif;
+}

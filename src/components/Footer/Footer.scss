@@ -1,0 +1,43 @@
+@import '../../styles/variables/colors';
+@import '../../styles/mixins/fonts';
+
+.footerContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: $color-black;
+	margin: 0;
+	padding: 0;
+}
+
+.footerContainerWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 1200px;
+	text-transform: uppercase;
+
+	&Heading {
+		@include LatoFont(24px, $color-grey-white, normal);
+		margin-block-end: 20px;
+		margin-block-start: 20px;
+
+		text-decoration: none;
+	}
+
+	&Item {
+		padding: 5px 0;
+	}
+
+	&Link {
+		@include LatoFont(24px, $color-grey-white, normal);
+
+		text-decoration: none;
+
+		&:hover {
+			cursor: pointer;
+			border-bottom: 2px solid $color-grey-white;
+			transition: .08s;
+		}
+	}
+}
