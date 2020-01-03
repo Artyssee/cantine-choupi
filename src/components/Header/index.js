@@ -32,7 +32,7 @@ const normalHeader = () => {
       <h1>NormalHeader</h1>
     </div>
   )
-}
+};
 
 ImageHeader.propTypes = {
   headerTitle: PropTypes.string,
